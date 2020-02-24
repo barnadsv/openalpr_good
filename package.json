@@ -42,7 +42,7 @@
     "iojs": ">= 3.0.0"
   },
   "scripts": {
-    "install": "node-pre-gyp install --build-from-source --fallback-to-build",
+    "install": "node-pre-gyp install --build-from-resource --fallback-to-build",
     "postinstall": "node -e \"var fs = require('fs-extra'); fs.remove ('build');\""
   }
 }
